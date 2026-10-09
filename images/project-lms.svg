@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#eaf5fb"/>
+<rect x="90" y="90" width="1020" height="495" rx="28" fill="#fff" stroke="#c9dce8" stroke-width="8"/>
+<rect x="90" y="90" width="1020" height="90" rx="28" fill="#102a43"/>
+<circle cx="140" cy="135" r="14" fill="#2aa7c9"/>
+<rect x="160" y="250" width="230" height="210" rx="18" fill="#dcecf4"/>
+<rect x="430" y="250" width="250" height="40" rx="10" fill="#1769aa"/>
+<rect x="430" y="315" width="580" height="24" rx="8" fill="#dfe7ee"/>
+<rect x="430" y="360" width="470" height="24" rx="8" fill="#dfe7ee"/>
+<rect x="430" y="405" width="530" height="24" rx="8" fill="#dfe7ee"/>
+<text x="600" y="550" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#102a43">LEARNING MANAGEMENT SYSTEM</text>
+</svg>

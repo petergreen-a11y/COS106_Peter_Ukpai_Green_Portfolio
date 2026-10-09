@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact form for Peter Ukpai Green.">
+    <title>Contact | Peter Ukpai Green</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a class="brand" href="index.html">PG<span>.</span></a>
+            <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="planner.html">Academic Planner</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero section">
+            <div class="container">
+                <p class="eyebrow">CONTACT</p>
+                <h1>Let's connect</h1>
+                <p class="lead narrow">Use the form below to send a message. JavaScript validates the required fields before submission.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container contact-grid">
+                <aside class="content-card contact-info">
+                    <p class="eyebrow">GET IN TOUCH</p>
+                    <h2>Contact information</h2>
+                    <p>For the final submission, replace the placeholder details below with your official contact information.</p>
+
+                    <div class="contact-item">
+                        <span>Email</span>
+                        <strong>peter.green@miva.edu.ng</strong>
+                    </div>
+                    <div class="contact-item">
+                        <span>Phone</span>
+                        <strong>08035665069</strong>
+                    </div>
+                    <div class="contact-item">
+                        <span>Programme</span>
+                        <strong>Computer Science</strong>
+                    </div>
+                </aside>
+
+                <article class="form-card">
+                    <form id="contactForm" novalidate>
+                        <div class="form-grid">
+                            <div class="field">
+                                <label for="name">Name</label>
+                                <input id="name" name="name" type="text" autocomplete="name" required>
+                                <small class="error" id="nameError"></small>
+                            </div>
+
+                            <div class="field">
+                                <label for="email">Email Address</label>
+                                <input id="email" name="email" type="email" autocomplete="email" required>
+                                <small class="error" id="emailError"></small>
+                            </div>
+
+                            <div class="field">
+                                <label for="phone">Phone Number</label>
+                                <input id="phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" required>
+                                <small class="error" id="phoneError"></small>
+                            </div>
+
+                            <div class="field field-full">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="7" required></textarea>
+                                <small class="error" id="messageError"></small>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-primary" type="submit">Send Message</button>
+                        <p id="contactSuccess" class="success-message" aria-live="polite"></p>
+                    </form>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Peter Ukpai Green. Student Portfolio</p>
+            <p>Built with HTML, CSS and JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

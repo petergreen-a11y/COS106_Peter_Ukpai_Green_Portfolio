@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interactive academic planner for Peter Ukpai Green.">
+    <title>Academic Planner | Peter Ukpai Green</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a class="brand" href="index.html">PG<span>.</span></a>
+            <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a class="active" href="planner.html">Academic Planner</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero section">
+            <div class="container">
+                <p class="eyebrow">ACADEMIC PLANNER</p>
+                <h1>Plan your academic tasks</h1>
+                <p class="lead narrow">Add tasks, mark them as completed and delete them when they are no longer needed.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container planner-layout">
+                <article class="planner-card">
+                    <div class="planner-header">
+                        <div>
+                            <p class="eyebrow">TASK MANAGEMENT</p>
+                            <h2>My Tasks</h2>
+                        </div>
+                        <div class="task-count" aria-live="polite"><span id="taskCount">0</span> tasks</div>
+                    </div>
+
+                    <form id="taskForm" class="task-form">
+                        <label for="taskInput">Add an academic task</label>
+                        <div class="task-input-row">
+                            <input id="taskInput" name="task" type="text" maxlength="120"
+                                   placeholder="e.g. Read Chapter 3" autocomplete="off" required>
+                            <button class="btn btn-primary" type="submit">Add Task</button>
+                        </div>
+                        <p id="taskMessage" class="form-message" aria-live="polite"></p>
+                    </form>
+
+                    <ul id="taskList" class="task-list" aria-live="polite"></ul>
+
+                    <div id="emptyState" class="empty-state">
+                        <div class="empty-icon">✓</div>
+                        <h3>No tasks yet</h3>
+                        <p>Add your first academic task above.</p>
+                    </div>
+                </article>
+
+                <aside class="planner-info">
+                    <div class="content-card">
+                        <p class="eyebrow">JAVASCRIPT FEATURES</p>
+                        <h2>Interactive by design</h2>
+                        <ul class="check-list">
+                            <li>Add a task</li>
+                            <li>Mark a task as completed</li>
+                            <li>Delete a task</li>
+                            <li>Update the task count dynamically</li>
+                            <li>Use arrays and functions</li>
+                            <li>Respond to user events</li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Peter Ukpai Green. Student Portfolio</p>
+            <p>Built with HTML, CSS and JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

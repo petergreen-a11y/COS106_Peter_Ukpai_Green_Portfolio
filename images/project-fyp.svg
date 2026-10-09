@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#f4f8fb"/>
+<rect x="100" y="100" width="1000" height="475" rx="28" fill="#102a43"/>
+<path d="M230 460l120-135 105 80 145-180 120 105 110-135 120 160" fill="none" stroke="#2aa7c9" stroke-width="22"/>
+<circle cx="350" cy="325" r="16" fill="#fff"/><circle cx="600" cy="225" r="16" fill="#fff"/><circle cx="830" cy="300" r="16" fill="#fff"/>
+<text x="600" y="535" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#fff">EXPLAINABLE ANOMALY SCREENING</text>
+</svg>
